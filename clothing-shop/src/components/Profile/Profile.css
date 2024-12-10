@@ -1,0 +1,106 @@
+.profile-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 50%;
+	margin: 20px auto;
+	padding: 20px;
+	background-color: #1e1e1e;
+	border-radius: 10px;
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+	font-family: Arial, sans-serif;
+}
+
+.profile-container h1 {
+	text-align: center;
+	color: #ffffff;
+	margin-bottom: 20px;
+}
+
+.profile-card {
+	background-color: #2a2a2a;
+	border-radius: 10px;
+	padding: 20px;
+	margin-bottom: 20px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+		width: 300px;
+}
+
+.profile-avatar-container {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.profile-avatar {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	object-fit: cover;
+	border: 5px solid #ffffff;
+}
+
+.profile-info input {
+	width: calc(100% - 20px);
+	padding: 8px;
+	font-size: 16px;
+	margin: 5px 0;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+.profile-edit-btn {
+	display: block;
+	margin: 20px auto;
+	padding: 10px 20px;
+	background-color: #007bff;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+.profile-edit-btn:hover {
+	background-color: #0056b3;
+}
+
+.close-icon {
+	font-size: 24px;
+	color: #ffffff;
+	cursor: pointer;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+.scrollable-content {
+	max-height: 400px;
+	overflow-y: auto;
+	padding: 10px;
+}
+
+.button-container {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.avatar-upload-label {
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 70px;
+	margin-left: -40px;
+	z-index: 1000;
+}
+
+.avatar-upload-label .MuiSvgIcon-root {
+	color: #ffffff;
+	font-size: 30px;
+}
